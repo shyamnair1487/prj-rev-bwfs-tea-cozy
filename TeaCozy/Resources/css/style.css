@@ -1,0 +1,177 @@
+* {
+  margin: 0;  /***To fix issue with space abouve scrollbar ***/
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  display: block;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2, h4, h5 {
+  margin-top: 30px
+  margin-bottom: 30px;
+}
+
+p {
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+/***** Header ******/
+
+header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  z-index: 10;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header nav {
+  margin-right: 25px;
+}
+
+header nav ul li {
+  text-decoration: underline;
+  text-align: right;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/******** MAIN ******************/
+
+.main {
+  padding-top: 69px;
+}
+
+/**** Mission ******/
+.mission {
+  display: flex;
+  justify-content: center;
+  background-image: url("../Images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.mission-statement {
+  background: black;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.mission-statement h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/***** Store ******/
+
+.tea {
+  width: 1000px;
+  margin: 0 auto 40px;
+}
+
+.tea h2 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.tea .items {
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.tea .items .item {
+  padding: 10px 10px 20px 10px;
+}
+
+.tea .item img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/**** Locations ****/
+
+#locations {
+  height: 500px;
+  background-image: url("../Images/img-locations-background.jpg");
+  padding-top: 70px;
+}
+
+#locations .flex-container {
+    width: 1200px;
+    margin: auto;
+}
+
+#locations h2 {
+margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.flex-container.locations {
+    padding-top: 5px;
+}
+
+.locations {
+  justify-content: center;
+}
+
+.location h3 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.location p {
+  margin-bottom: 30px;
+}
+
+.location {
+  margin: 0 40px;
+  background: black;
+  width: 300px;
+}
+
+/*****Contact *****/
+
+.contact {
+  height: 200px;
+}
+
+.contact h2 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.contact h5 {
+  margin-bottom: 20px;
+}
+
+/***** Footer ****/
+
+footer {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 10px;
+}
